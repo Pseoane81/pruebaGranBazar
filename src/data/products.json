@@ -1,0 +1,453 @@
+[
+    {
+        "id": 1,
+        "name": "Bolsa Agua Caliente Cactus",
+        "category": [
+            "uso-personal",
+            "decoracion"
+        ],
+        "description": " Bolsa de agua caliente para aliviar dolores en el cuerpo. Diseños originales",
+        "measurements": "20 x 34 x 2cm",
+        "color": "Blanco",
+        "material": "Goma",
+        "origin": "Peru",
+        "price": "2590",
+        "image": "product-1635874263233.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Macetero colgante",
+        "category": "destacados",
+        "description": "  Macetero colgante geométrico de metal. Incluye maceta plástica. Alto de estructura y cadena con gancho: 80cm. No incluye planta   ",
+        "measurements": "10 x 9cm",
+        "color": "Negro",
+        "material": "Metal y plástico",
+        "origin": "Argentina",
+        "price": "2990",
+        "image": "product-1635874764850.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Estanteria 4 estantes",
+        "category": [
+            "uso-personal",
+            "decoracion",
+            "destacados"
+        ],
+        "description": "Estanteria de hierro y madera 4 estantes",
+        "measurements": "190 cm x 80 cm",
+        "color": "Negro",
+        "material": "Hierro y madera",
+        "origin": "Chile",
+        "price": "29990",
+        "image": "product-1635874542152.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Identificadores de equipaje",
+        "category": "viaje",
+        "description": "Identificador de equipaje con display de datos en su reverso y cinta sujetadora ",
+        "measurements": "7x10.5cm",
+        "color": "Amarillo",
+        "material": "Goma",
+        "origin": "China",
+        "price": "389",
+        "image": "product-1635874672231.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Perchero Welcome",
+        "category": "muebles",
+        "description": " lindo perchero",
+        "measurements": "190 cm x 80 cm",
+        "color": "Blanco",
+        "material": "Madera",
+        "origin": "Chile",
+        "price": "29990",
+        "image": "product-1637105463753.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Biblioteca Alanis",
+        "category": [
+            "muebles",
+            "destacados"
+        ],
+        "description": " Mueble biblioteca Alanis con tres puertas.",
+        "measurements": "130 x 120 x 33 cm",
+        "color": "Blanco",
+        "material": "MDF",
+        "origin": "China",
+        "price": "72990",
+        "image": "product-1637364508469.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Bandeja C/Base Porta Laptop",
+        "category": "muebles",
+        "description": " Bandeja con secciones.Una sección para apoyar la notebooks con 4 posturas de altura y tope. Otra sección para apoyar mouse o apoyar bebidas. Contiene patas regulables en altura y cajon porta objetos.",
+        "measurements": "72 x 34 cm",
+        "color": "Blanco",
+        "material": "Madera",
+        "origin": "Argentina",
+        "price": "11990",
+        "image": "product-1637364592653.jpg"
+    },
+    {
+        "id": 13,
+        "name": "era el 13",
+        "category": "3",
+        "description": "13",
+        "measurements": "13",
+        "color": "4",
+        "material": "1",
+        "origin": "8",
+        "price": "111",
+        "image": "product-1639700948541.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Escritorio Judith",
+        "category": "muebles",
+        "description": " Escritorio Juanuditha. Construido en melamina blanca de 18mm de espesor, con los cantos invertidos a 20 grados. Posee un instructivo impreso para el armado aunque es muy simple. Solo necesitarás un destornillador.",
+        "measurements": "73 x 90 x 60 cm",
+        "color": "Blanco",
+        "material": "Melamina",
+        "origin": "Argentina",
+        "price": "19990",
+        "image": "product-1637364744411.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Escritorio Combinado Infantil",
+        "category": "muebles",
+        "description": " Pupitre kids. Construido en melamina blanco y roble de 18 mm de espesor. El armado requiere de un destornillador y las patas se ensamblan a rosca. Incluye 2 vasos plasticos de distinto color para poder apoyar lápices o marcadores.",
+        "measurements": "60 x 60 x 65 cm",
+        "color": "Blanco",
+        "material": "Melamina",
+        "origin": "Argentina",
+        "price": "17990",
+        "image": "product-1637364814749.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Escritorio NOA",
+        "category": "muebles",
+        "description": " Escritorio NOA. Construido en multilaminado de 18 mm de espesor + melamina blanca de 18 mm con los cantos pegados en igual tono. Se entrega desarmado y se arma con llave allen la cual viene incluida con el producto.",
+        "measurements": "90 x 65 x 85 cm",
+        "color": "Blanco",
+        "material": "Melamina",
+        "origin": "China",
+        "price": "19990",
+        "image": "product-1637364874691.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Rack Tv Hope Negro/Roble",
+        "category": "muebles",
+        "description": " Rack de TV de laminado melamínico de primera calidad de 18 mm de espesor. Posee 2 estantes a la vista y 2 estantes tras las puertas. Las bisagras son metálicas de máxima calidad con sistema de cierre suave, que evita golpes al cerrar. Sistema de apertura uñero, lo que evita la vista de la estructura dando mayor robustez y diseño al mueble. Ancho 135 cm, alto 50 cm, profundidad 37 cm.",
+        "measurements": "135 x 50 x 37 cm",
+        "color": "Blanco",
+        "material": "Laminado melamínico",
+        "origin": "China",
+        "price": "31890",
+        "image": "product-1637364941976.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Rack Tv Airin",
+        "category": "muebles",
+        "description": " El rack de TV Alanis, posee un diseño de origen Nórdico con estilo minimalista y cuenta con 2 estantes y 2 puertas súper cómodas para que puedas guardar de todo. Los muebles de la colección Alanis son ideales para livings, dormitorios y comedores. Posee terminaciones redondeadas y de máxima calidad. Color Madera Natural y Blanco.\r\nEl producto se entrega desarmado en su empaque original, junto con un sencillo manual de instrucciones. Incluye un Kit completo de armado para su ensamblaje",
+        "measurements": "140 x 53 x 40 cm",
+        "color": "Blanco",
+        "material": "Madera y MDF enchapado",
+        "origin": "China",
+        "price": "41990",
+        "image": "product-1637365023035.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Bolsa Hielo",
+        "category": [
+            "uso-personal",
+            "destacados"
+        ],
+        "description": " Bolsa para hielo plegable e impermeable. Para colocar en cualquier parte del cuerpo ya que por su material se amolda donde se coloque. Fácil de lavar y de guardar. 3 colores diferentes.",
+        "measurements": "21,5 x 9,7 cm",
+        "color": "Azul",
+        "material": "Poliester",
+        "origin": "India",
+        "price": "849",
+        "image": "product-1637796643092.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Auriculares",
+        "category": "uso-personal",
+        "description": " Auriculares Bluetooth Inalámbricos Orejas Gatito Luz Led. Posee conexión por bluetooth, por cable o a través de tarjeta de memoria. Con micrófono incorporado en el auricular y luces LED en las orejas! Ambos funcionan en modo bluetooth. Además de escuchar música o audios, se pueden atender llamadas telefónicas a través del auricular.",
+        "measurements": "Ancho 18 cm x Alto 19 cm x Prof 8 cm",
+        "color": "Rosa",
+        "material": "plastico",
+        "origin": "India",
+        "price": "7900",
+        "image": "product-1637796754642.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Bandeja Love",
+        "category": "uso-personal",
+        "description": " Bandeja porta laptop para niños y niñas. Ideal como lugar de lectura, desayunador, mesa de dibujo, etc. Tiene luz de lectura, porta lápices y ranura para apoyar celular o tablet. La parte de abajo es acolchada para apoyar en las piernas.",
+        "measurements": "48 x 38 cm",
+        "color": "Dorado",
+        "material": "Melamina",
+        "origin": "Argentina",
+        "price": "6990",
+        "image": "product-1637796825091.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Botella Jungle",
+        "category": "uso-personal",
+        "description": " Botella térmica, a prueba de óxido, libre de condensación y no absorbe olores ni sabores. No apta para microondas ni lavavajillas. Tiene doble pared Aislada al vacio. Mantiene la temperatura, frío por 18hs y caliente por 12hs. Boca ancha para cubos de hielo. No tiene BPA y FTALATOS- Capacidad de 630ml",
+        "measurements": "Alto 25cm, diámetro 7,2cm",
+        "color": "Verde",
+        "material": "Acero Inox",
+        "origin": "China",
+        "price": "3999",
+        "image": "product-1637796907971.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Mug Travel",
+        "category": "uso-personal",
+        "description": " Taza de viaje elegante y práctica para bebidas frías y calientes. cuerpo de plástico de doble pared. Envuelto en una colorida banda de plástico para un agarre ergonomico y seguro. Apta para lavavajilla.",
+        "measurements": "17x8.8cm",
+        "color": "Rojo",
+        "material": "Plástico, caucho y silicona sin BPA.",
+        "origin": "India",
+        "price": "6390",
+        "image": "product-1637796976077.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Pesa 12 kg",
+        "category": "uso-personal",
+        "description": " Pesa de metal 12kgrs",
+        "measurements": "25x8cm",
+        "color": "Negro",
+        "material": "Hierro",
+        "origin": "Argentina",
+        "price": "6000",
+        "image": "product-1637797055984.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Valija Carry On",
+        "category": [
+            "uso-personal",
+            "destacados"
+        ],
+        "description": " Valija rígida WILSON con cuatro ruedas dobles siliconadas, carro retractil e interno. Incluye fuelle expandible. Peso: 2,40 kg",
+        "measurements": "49 x 30 x 20 cm",
+        "color": "Negro",
+        "material": "Plastico",
+        "origin": "Alemania",
+        "price": "15490",
+        "image": "product-1637797129855.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Humidificador Sphere",
+        "category": "decoracion",
+        "description": " Humificador Vaporizador Aromaterapia Símil Madera USB. Permite que el aire recupere de forma natural su porcentaje ideal de humedad, Eliminando los efectos nocivos del aire seco.\r\nPuede ser usado para perfumar los ambientes con solo añadir unas gotas de esencia al agua de deposito",
+        "measurements": "10cm",
+        "color": "Negro",
+        "material": "ABS",
+        "origin": "China",
+        "price": "2990",
+        "image": "product-1637797599295.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Set Cajas New York",
+        "category": "decoracion",
+        "description": " Cajas fabricadas en madera con diseño coordenadas New York",
+        "measurements": "Caja chica: 36 x 21.5 x 14 cm / Caja grande: 39.5 x 27 x 14 cm",
+        "color": "Blanco",
+        "material": "Madera",
+        "origin": "Argentina",
+        "price": "7890",
+        "image": "product-1637797654358.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Portaretrato",
+        "category": "decoracion",
+        "description": " Porta retrato encofrado 15x20.",
+        "measurements": "15x20cm",
+        "color": "Blanco",
+        "material": "MDF",
+        "origin": "Argentina",
+        "price": "1790",
+        "image": "product-1637797710463.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Memo Tv",
+        "category": "decoracion",
+        "description": " Pizarra para pared de vidrio con metal. Incluye 4 imanes, un marcador apto para escribir y borrar, y un soporte de marcador con borrador. El vidrio esta montado sobre una chapa de metal, lo que permite que se peguen los imanes y puedas colocar allí notas, fotos o lo que necesites. Se instala en la pared por medio de 2 tornillos (no incluidos). Ideal para escritorios, cocinas, habitaciones, o cualquier lugar de la casa donde necesites espacio para escribir tus recordatorios.",
+        "measurements": "40 x 30 cm",
+        "color": "Negro",
+        "material": "Vidrio y Metal",
+        "origin": "Argentina",
+        "price": "3290",
+        "image": "product-1637797762818.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Decowall Tree",
+        "category": [
+            "decoracion",
+            "destacados"
+        ],
+        "description": " Aplique para pared fabricado en metal torneado y pintado en diferentes tonos de verdes, marrones y blanco. Posee soporte metálico detrás para colgar en la pared",
+        "measurements": "118 x 85 cm",
+        "color": "Verde",
+        "material": "Metal",
+        "origin": "Argentina",
+        "price": "24900",
+        "image": "product-1637797812373.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Lámpara Lapicero",
+        "category": "decoracion",
+        "description": " Lámpara lapicero de escritorio con ranura para celular. Puede ajustarse en altura y direccionar la luz gracias a tu brazo móvil. Interruptor on/off en su parte trasera y botón táctil en el frente para encender la lámpara. 3 intensidades de luz iluminación máxima 1w, batería interna, caga DC5V/USB (cable usb incluído)",
+        "measurements": "Base: 10.5 x 8.5 cm / Altura: 41 cm",
+        "color": "Blanco",
+        "material": "ABS",
+        "origin": "China",
+        "price": "3590",
+        "image": "product-1637797882556.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Lámpara Recargable",
+        "category": "decoracion",
+        "description": " Lampara de escritorio touch en color verde, con tres niveles de brillo ajustable, tiene tres divisiones para colocar lápices. Brazo flexible y direccionable. Se puede utilizar enchufada a la PC o a la corriente.O cargar y utilizar desenchufada. Incluye cable USB.",
+        "measurements": "40 cm extendida",
+        "color": "Blanco",
+        "material": "PVC",
+        "origin": "China",
+        "price": "1890",
+        "image": "product-1637797939839.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Banco plegable",
+        "category": [
+            "viaje",
+            "destacados"
+        ],
+        "description": " Banco plegable, ideal para llevar en el auto o en el bolso para estar cómodo en cualquier lugar que vayas. Se puede trabar en diferentes alturas. Posee manija para transportar. Cerrado mide 25,5 cm de diámetro x 6 cm de alto. Abierto mide 25,5 cm de diámetro y 45 cm de altura máxima.",
+        "measurements": "25,5 x 6 cm",
+        "color": "Negro",
+        "material": "Plastico",
+        "origin": "China",
+        "price": "5490",
+        "image": "product-1637798243276.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Neceser Travel",
+        "category": "viaje",
+        "description": " Neceser de viaje, para ordenar tus cosméticos en un solo lugar en la valija. Posee un gancho para colgar en el baño y tener todo a mano, y manija del lado externo para colgar o sujetar para trasladar. Con abrojos para que no se abra y no se pierda nada. Posee bolsillo transparente con cierre para las cosas pequeñas y compartimento amplio con cierre para los envases grandes",
+        "measurements": "26 x 22,5 x 2",
+        "color": "Rosa",
+        "material": "Poliester",
+        "origin": "India",
+        "price": "1690",
+        "image": "product-1637798298946.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Organizador Equipaje",
+        "category": [
+            "viaje",
+            "destacados"
+        ],
+        "description": " Set x4 bolsos para clasificar y organizar mejor tu equipaje, ayuda a optimizar tu espacio, cada bolso cuenta con dos cierres. Bolso L 45 x 30 x 11 cm, Bolso M 35 x 27 x 9 cm, Bolso S 30 x 20 x 9 cm, Bolso XS 22 x 15 x 7 cm",
+        "measurements": "45 x 30 x 11 cm",
+        "color": "Azul",
+        "material": "Poliester",
+        "origin": "India",
+        "price": "4490",
+        "image": "product-1637798373990.jpg"
+    },
+    {
+        "id": 36,
+        "name": "Organizador De Cartera",
+        "category": "viaje",
+        "description": "Neceser con bolsillos grandes con cierre, bolsillos sin cierre, bolsillos de tela y bolsillos de red ",
+        "measurements": "27 x 17 x 9 cm",
+        "color": "Azul",
+        "material": "Poliéster",
+        "origin": "India",
+        "price": "990",
+        "image": "product-1637798433705.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Bolso Airl Jfk",
+        "category": [
+            "viaje",
+            "destacados"
+        ],
+        "description": " Bolso de lona de algodón estampado JFK New York. Cierre marrón",
+        "measurements": "29 x 18 x 10 cm",
+        "color": "Dorado",
+        "material": "Lona 100% algodón",
+        "origin": "India",
+        "price": "1390",
+        "image": "product-1637798483150.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Identificador Equipaje",
+        "category": [
+            "viaje",
+            "destacados"
+        ],
+        "description": " Identificador para maletas. Incluye tarjeta de datos",
+        "measurements": "11 x 6.7 cm",
+        "color": "Negro",
+        "material": "PVC y silicona",
+        "origin": "Argentina",
+        "price": "389",
+        "image": "product-1637798565705.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Almohadón Cuello",
+        "category": "viaje",
+        "description": " Almohada para cuello, con tela suave al tacto. Sostiene tu mentón manteniendo tu cabeza erguida y descansada. Utilizala de maner lateral, completo o posterior.",
+        "measurements": "37 x 30 x 9 cm",
+        "color": "Rosa",
+        "material": "Funda: 100% poliester y relleno: 100% polipropileno",
+        "origin": "Vietnam",
+        "price": "3490",
+        "image": "product-1637798626933.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Sombrilla Flamingo",
+        "category": "viaje",
+        "description": " Sombrilla diseño flamenco, diámetro 1,80 cm. Palo extensible hasta 2,40 cm. Sombrilla de playa fabricada en poliéster premium. Alta durabilidad.",
+        "measurements": "180cm",
+        "color": "Verde",
+        "material": "Poliéster premium.",
+        "origin": "China",
+        "price": "3890",
+        "image": "product-1637798815896.jpg"
+    }
+]

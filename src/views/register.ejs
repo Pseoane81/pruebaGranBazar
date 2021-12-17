@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ('partials/head') %> 
+<body>
+    <%- include('partials/header')  %> 
+
+        <main>
+            <% if (locals.errors) { %>
+                <% for( let oneError in errors) { %>
+                      <p><%= errors[oneError].msg %>   </p>
+                      
+              <% } %>
+                 
+                  <% } %>
+        <div class="crea">CREA TU CUENTA</div>
+        <p class="login">Ya tenes cuenta? ¡Ingresa <a class="register-here" href="/users/login">aquí</a>!</p>
+            
+            <form action="/users/register" method="POST" class="register" enctype="multipart/form-data">
+                
+                <div class="form-control">
+                    <label for="">Nombre</label>
+                    <input type="text" name="name" value="<%= locals.oldData ? oldData.name : null %>">
+                    <% if (locals.errors && errors.name ) { %>
+                        <div class="text-danger">
+                          <p> <%= errors.name.msg %> </p>
+                        </div>
+                    <% } %>
+                </div>
+                </div>
+                <div class="form-control">
+                    <label for="">Apellido</label>
+                    <input type="text" name="lastname" value="<%= locals.oldData ? oldData.lastname : null %>">
+                    <% if (locals.errors && errors.lastname ) { %>
+                        <div class="text-danger">
+                          <p> <%= errors.lastname.msg %> </p>
+                        </div>
+                    <% } %>
+                </div>
+
+                <div class="form-control">
+                    <label for="">Email</label>
+                    <input type="email" name="email" value="<%= locals.oldData ? oldData.email : null %>">
+                    <% if (locals.errors && errors.email ) { %>
+                        <div class="text-danger">
+                          <p> <%= errors.email.msg %> </p>
+                        </div>
+                    <% } %>
+                </div>
+
+                <div class="form-control">
+                    <label for="">Fecha de nacimiento</label>
+                    <input type="date" name="dob">
+                </div>
+                
+                <div class="form-control">
+                    <label for="image">Imagen de perfil</label>
+                    <input type="file" name="avatar" accept=".png, .jpg, .jpeg" >
+                    <% if (locals.errors && errors.avatar ) { %>
+                        <div class="text-danger">
+                          <p> <%= errors.avatar.msg %> </p>
+                        </div>
+                    <% } %> 
+                </div>
+                
+                <div class="form-control">
+                    <label for="">Contraseña</label>
+                    <input type="password" name="password" placeholder="Debe contener 8 caracteres y un numero">
+                    <% if (locals.errors && errors.password ) { %>
+                        <div class="text-danger">
+                          <p> <%= errors.password.msg %> </p>
+                        </div>
+                    <% } %>
+                </div>
+
+                <div class="form-control">
+                    <label for="">Repetir Contraseña</label>
+                    <input type="password" name="repassword">
+                </div>
+
+                <div class="buttons">
+                <a href="#"><button type="submit" class="enviar">Registrate</button></a>
+                <button type="reset" class="borrar">Borrar</button></div>
+            </form>
+        </main>
+
+
+        <%- include('partials/footer')  %> 
+       
+    </body>
+    </html>

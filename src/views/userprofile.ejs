@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ('partials/head') %> 
+<body>
+    <%- include('partials/header')  %> 
+
+        <main class="userprof"> 
+            <h3 >Hola <%= user.name %>!  </h3>
+            <form action="">    
+                <div class="img-avatar"><img src="/img/avatars/<%= user.avatar %>" alt="avatar de usuario" width="100" style="border-radius: 100%;">
+                    
+                <div class="user-info">
+                   
+                    <div class="form-control">
+                    <label for="">Nombre</label>
+                    <input type="text" name="name" value=<%= user.name %>>
+                    </div>
+            
+                    <div class="form-control">
+                    <label for="">Apellido</label>
+                    <input type="text" name="lastname" value=<%= user.lastname %>>
+                    </div>
+
+                    <div class="form-control">
+                    <label for="">Email</label>
+                    <input type="email" name="email" value=<%= user.email %>>
+                     </div>
+
+                    <div class="form-control">
+                    <label for="">Fecha de nacimiento</label>
+                    <input type="date" name="dob" value=<%= user.dob %>>
+                    </div>
+                    <div class="buttons">
+                    <a href="/users/edituser/<%= user.id %>" class="action-buttonedit">Editar</a>
+                    </form> 
+                    <form action="/users/<%=user.id %>?_method=DELETE" method="post" >
+                        <button class="action-buttondelete">Borrar</button>
+                </form> </div>        
+        </main>
+
+
+        <%- include('partials/footer')  %> 
+       
+    </body>
+    </html>

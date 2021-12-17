@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ('partials/head') %> 
+<body>
+    <%- include('partials/header')  %> 
+        <main>
+            <h3 class="addedit">EDITANDO PRODUCTO: <%= product.name%> </h3>
+        <form action="/products/editproduct/<%= product.id %>?_method=PUT" method="POST" enctype="multipart/form-data" class="add-edit">
+  
+    <div class="form-control">
+        <label for="">Nombre</label>
+        <input type="text" name="name" value="<%= product.name%>" required>
+    </div>
+    <div class="form-control">
+        <label for="">Categorias</label>
+        <div class="checkbox"> 
+            <% for (let j = 0; j < categoria.length; j++){ %>
+            <label for="" class="check"><input type="checkbox" name="category"  value="<%=categoria[j].id%>"class="check"<%= locals.oldData && (categoria[j].category === oldData.category) ? 'checked' : null %>><%=categoria[j].category%></label>
+            <%}%>
+        </div>
+        <div class="form-control">
+            <label for="">Selecciona las imagenes para tu producto</label>
+            <input type="file" name="image" accept=".png, .jpg, .jpeg" multiple value="<%= product.img%>">
+            <span class="imgs">Solo acepta .png, .jpg, .jpeg</span>
+        </div>
+        <div class="form-control descripcion" >
+        <label for="descripcion">Descripcion del producto</label>
+        <textarea class="text-description" name="description" id="text-description"> <%= product.description%> </textarea>
+        </div>
+        <div class="form-control">
+            <label for="">Medidas:</label>
+            <input type="text" name="measurements" value="<%= product.measure%>">
+        </div>
+        <div class="form-control">
+            <label for="">Color</label>
+            <select name="color" id="color">
+                <% for (let i =0; i < color.length; i++){ %>
+                <option value=<%=color[i].id%> <%= locals.oldData && (color[i].color === oldData.color) ? 'selected' : null %>><%=color[i].color%></option>      
+                <%}%>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="">Material</label>
+            <div class="checkbox"> 
+                <% for (let j = 0; j < material.length; j++){ %>
+                <label for="" class="check"><input type="checkbox" name="material" id="<%material[j].material%>" value="<%=material[j].id%>"class="check"<%= locals.oldData && (material[j].material === oldData.material) ? 'checked' : null %>><%=material[j].material%></label>
+                <%}%>
+            </div>
+            <div class="form-control">
+                <label for="">Origen</label>
+                <select name="origin" id="origin">
+                    <% for (let i =0; i < country.length; i++){ %>
+                    <option value="<%=country[i].id%>" <%= locals.oldData && (country[i].country === oldData.country) ? 'selected' : null %>><%=country[i].country%></option>      
+                    <%}%>
+                </select>
+        <div class="form-control">
+            <label for="">Precio</label>
+            <input type="text" name="price" class="price" value="<%= product.price%>">
+        </div>
+        <div class="buttons">
+        <button type="submit" class="enviar">EDITAR</button>
+        <button type="reset" class="borrar">BORRAR</button> </div>
+    </div>  
+    
+    </form>
+    
+    
+    
+    
+       </main>
+
+
+       <%- include('partials/footer')  %> 
+    </body>
+    </html>
+
+
+

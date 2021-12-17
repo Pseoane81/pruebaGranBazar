@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include ('partials/head') %> 
+<body>
+    <%- include('partials/header')  %> 
+    <main class="body-product">
+        
+        <section class="visita">
+            <h3>LISTADO DE PRODUCTOS</h3>
+        </section>
+    
+        <div class="menu-imagenes"> 
+            <!--<section class="menu-lateral">
+                <div class="linea-producto">
+                    <p>Categorias</p>
+                </div>
+                <div>
+                    <ul class="menu-productos">
+                        <li><a href="./products">Muebles</a></li>
+                        <li><a href="./products">Decoracion</a></li>
+                        <li><a href="./products">Uso personal</a></li>
+                        <li><a href="./products">Viajes</a></li>
+                        
+                    </ul>
+                </div>
+            </section>-->
+            
+            <table class="col-12">
+				<thead class="encabezado">
+					<td>ID</td>
+                    <td>Nombre</td>
+					<td>Precio</td>
+					<td>Acciones</td>
+					
+				</thead>
+				<tbody>
+					<% inventory.forEach(product => { %>
+						<tr>
+							<td><%= product.id %></td>
+							<td><%= product.name %></td>
+                            <td><%= product.price %></td>
+							<td class="botones-list">
+								<a href="/products/<%= product.id %>" class="action-buttonedit">Detalle</a>
+								<a href="/products/editproduct/<%= product.id %>" class="action-buttonedit">Editar</a>
+							
+								<form action="/products/<%= product.id %>?_method=DELETE" method="post" class="d-inline">
+									<button class="action-buttondelete">Borrar</button>
+								</form>
+							</td>
+						</tr>
+					<% }) %>
+				</tbody>
+
+			</table>
+
+            
+            
+        </div>
+        
+   </main>
+   <%- include('partials/footer')  %> 
+   
+</body>
+</html>
+

@@ -1,0 +1,104 @@
+[
+ {
+  "id": 1,
+  "name": "Kalinda",
+  "lastname": "Stonebanks",
+  "email": "kstonebanks0@photobucket.com",
+  "dob": "27/06/1992",
+  "avatar": "http://dummyimage.com/200x138.png/5fa2dd/ffffff",
+  "password": "AIPZDIyetW7"
+ },
+ {
+  "id": 2,
+  "name": " Elena",
+  "lastname": "Acevedo",
+  "email": "acevedoelena.23@gmail.com",
+  "dob": "",
+  "password": "$2a$12$p86Lm5usY5fHx8w2BPNjpOALYs.GiUBKSQnw9Y8LiPbGf.lOOzlXa",
+  "avatar": "1636998166537_img.jpeg"
+ },
+ {
+  "id": 3,
+  "name": "Pablitos",
+  "lastname": "Seoane",
+  "email": "pablitoseoane@gmail.com",
+  "dob": "1981-10-14",
+  "password": "$2a$12$nKxJOeRZjjfXJPM2OYPN0.zy4DO.1y8DbIWJK/oxY3b7Xv1oBSe0e",
+  "avatar": "1637791513398_img.jpg",
+  "rol": "admin"
+ },
+ {
+  "id": 4,
+  "name": "Pablo",
+  "lastname": "Seoane",
+  "email": "pablitoseoane1@gmail.com",
+  "dob": "1981-10-14",
+  "password": "$2a$12$EqlmytGkndm.lMlmP.BzCeon93ZtwqZnV2e1PveIXgHTDKi9dQ8ze",
+  "avatar": "1637021964837_img.jpg"
+ },
+ {
+  "id": 6,
+  "name": "Jonathan",
+  "lastname": "Eskesen",
+  "email": "Jona91_eskesen@hotmail.com",
+  "dob": "2021-11-11",
+  "password": "holahola",
+  "avatar": "1637108290747_img.png"
+ },
+ {
+  "id": 7,
+  "name": "aldana",
+  "lastname": "torres",
+  "email": "aldana1234@gmail.com",
+  "dob": "1996-04-30",
+  "password": "$2a$12$1eHK12OlM6uR0594ebZv8uoPEQ8J0JitbfynVMa/u6zyVHwuDUR8.",
+  "avatar": "1637249897899_img.jpeg"
+ },
+ {
+  "id": 8,
+  "name": "Melina",
+  "lastname": "B",
+  "email": "mbassano@gmail.com",
+  "dob": "1990-02-14",
+  "password": "$2a$12$fxdwR/Nlp74PhbAiMZRaa.sCBh0Jnf5ZvoyKOMB7ibt6hqHJ4nlPW",
+  "avatar": "1637500344558_img.png",
+  "rol": "admin"
+ },
+ {
+  "id": 9,
+  "name": "Laura",
+  "lastname": "Laura",
+  "email": "laura@email.com",
+  "dob": "2021-11-10",
+  "password": "$2a$12$VdY1bsCXl03OKNKTHm4J.OCNXDhbnl2WpkyvZhDxz54fBFOxrp5JG",
+  "avatar": "1637501914788_img.png"
+ },
+ {
+  "id": 10,
+  "name": "hola",
+  "lastname": "hola",
+  "email": "Jona9_eskesen@hotmail.com",
+  "dob": "2021-11-27",
+  "password": "$2a$12$AZU2/2B8yNWBtbl3i20J.OpIOXQkP/Cb7CmJGOrsKaPDf3N1yBpxW",
+  "avatar": "1637621151328_img.png"
+ },
+ {
+  "id": 11,
+  "name": "hola",
+  "lastname": "hola",
+  "email": "Jo9_eskesen@hotmail.com",
+  "dob": "2021-11-03",
+  "password": "$2a$12$dDG3rW4r0cg0dfQOv7NW9eAnBMprjolYQ47Tb8nrWWk2JA6qxYlfe",
+  "avatar": "1637621299514_img.png"
+ },
+ {
+  "id": 12,
+  "name": "Uriel",
+  "lastname": "Sosa",
+  "email": "urielsosa@dh.com",
+  "dob": "1999-12-22",
+  "password": "$2a$12$CWvOeGMYLLdxTD8v7V.py.EzOl5CWXBIRMkqWPStLEt81B3bzvNSS",
+  "avatar": "1637879815101_img.png",
+  "rol": "admin"
+ }
+]
